@@ -1,7 +1,15 @@
-import React, { useState } from 'react'
+import React from 'react'
 import "./usercard.css"
 
-function Usercard({ user }) {
+function Usercard() {
+
+    const user = {
+			name: "John Doe",
+			email: "johndoe123@gmail.com",
+			phoneNumber: 9987890234,
+			address: "123 Street",
+			image: "https://picsum.photos/200/300"
+		}
 
     return (
         <>
