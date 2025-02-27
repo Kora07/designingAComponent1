@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.userImage {
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
